@@ -1,0 +1,44 @@
+.movie-container {
+    min-height: 36vh;
+}
+
+.footer {   
+    text-align: center;
+    margin-top: 10px;
+}
+.list li{
+    font-size: 25px;
+    padding-left: 35px;
+    list-style: none;
+    background-image: url('../Icons/film.png');
+    background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 20px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.poster {
+    object-fit: cover;
+}
+
+.overview {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; 
+    overflow: hidden;
+}
+
+.overview-full {
+    -webkit-line-clamp: 10;
+}
+
+@media (max-width: 991.98px) { 
+    .overview {
+        -webkit-line-clamp: 5;
+    }
+}
